@@ -55,9 +55,9 @@ function updateQuote() {
 }
 
 // Sound Effects
-const addSound = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-positive-interface-beep-221.mp3"); // Soft, upbeat beep for adding tasks
-const completeSound = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3"); // Gentle bell for task completion
-const deleteSound = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-quick-positive-video-game-notification-269.mp3"); // Quick, smooth tone for deletion
+const addSound = new Audio("https://assets.mixkit.co/active_storage/sfx/216/216-preview.mp3");
+const completeSound = new Audio("https://assets.mixkit.co/active_storage/sfx/1490/1490-preview.mp3");
+const deleteSound = new Audio("https://assets.mixkit.co/active_storage/sfx/3209/3209-preview.mp3");
 
 // Add Task
 function addTask() {
