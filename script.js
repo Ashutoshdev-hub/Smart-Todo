@@ -55,9 +55,9 @@ function updateQuote() {
 }
 
 // Sound Effects
-const addSound = new Audio("https://www.soundjay.com/buttons/beep-01a.mp3");
-const completeSound = new Audio("https://www.soundjay.com/misc/sounds/magic-chime-01.mp3");
-const deleteSound = new Audio("https://www.soundjay.com/buttons/beep-07a.mp3");
+const addSound = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-positive-interface-beep-221.mp3"); // Soft, upbeat beep for adding tasks
+const completeSound = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3"); // Gentle bell for task completion
+const deleteSound = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-quick-positive-video-game-notification-269.mp3"); // Quick, smooth tone for deletion
 
 // Add Task
 function addTask() {
